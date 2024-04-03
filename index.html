@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal CardWeb</title>
+    <style>
+        body {
+            background-color: rgb(205, 205, 205);
+        }
+
+        .card-container {
+            border-radius: 15px;
+            margin: 30px auto;
+            overflow: hidden;
+            background-color: whitesmoke;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width: 700px;
+        }
+
+        .wrapper {
+            margin: auto;
+            width: 350px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;
+            font-family: cursive;
+        }
+
+        .wrapper h1 {
+            margin-top: 15px;
+            margin-bottom: 8px;
+        }
+
+        .wrapper p {
+            text-align: justify;
+            margin: 10px 0;
+        }
+
+        .button {
+            width: 100px;
+            color: aliceblue;
+            background-color: black;
+            margin: 5px 0;
+            border-radius: 15px;
+            padding: 5px;
+            cursor: pointer;
+        }
+
+        .img-d {
+            text-decoration: none;
+            color: black;
+        }
+
+        .img-d:hover {
+            text-decoration: underline;
+        }
+
+        .img-d:active {
+            text-decoration: underline;
+        }
+
+        .img-d img {
+            width: 15px;
+            vertical-align: -7.5px;
+            padding: 5px;
+        }
+
+        #li,
+        #ig,
+        #x {
+            width: 22.5px;
+            margin: 12px 12px;
+            cursor: pointer;
+        }
+         
+        .img-socmed {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .img-face {
+            width: 212px;
+            margin: auto;
+            border-radius: 5px;
+        }
+
+        .img-desc {
+            margin: auto;
+            text-align: center;
+            width: 200px;
+            background-color: aliceblue;
+            padding: 6px;
+        }
+
+        .img-desc h2 {
+            margin: 0px;
+        }
+
+        .img-desc p {
+            text-align: center;
+            margin: 0;
+            font-size: 0.8rem;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="card-container">
+        <div class="wrapper">
+            <h1>Halo! Perkenalkan saya Benjamin Huka</h1>
+            <p>Salam kenal, saya seorang mahasiswa yang sedang menempuh pendidikan strata 1 di Universitas Sampoerna,
+                jurusan Sistem
+                Informasi. Saya sangat tertarik dengan dunia programming dan desain sistem. Sejak mulai menempuh
+                pendidikan perkuliahan, saya bersemangat untuk terus mempelajari dan mengembangkan
+                keterampilan-keterampilan baru dalam bidang ini.</p>
+
+            <button class="button">contact</button>
+
+            <a href="./assets/CV DS BEN.pdf" download class="img-d">download CV<img
+                    src="./assets/circle-down-regular.svg"></a>
+
+            <div class="img-socmed">
+                <a id="li" href="https://www.linkedin.com/in/benjaminhuka?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BoXQt6KicRrK%2BUmk4ytoZ%2BQ%3D%3D"><img src="./assets/linkedin.svg"></a>
+                <a id="ig" href="instagram/benjaminhuka"><img src="./assets/square-instagram.svg"></a>
+                <a id="x"><img src="./assets/square-x-twitter.svg"></a>
+            </div>
+            <img class="img-face" src="./assets/ben.png">
+            <div class="img-desc">
+                <h2>Benjamin Huka</h2>
+                <p>Fullstack Developer</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
