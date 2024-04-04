@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(215, 215, 215);
+    font-family: cursive;
+}
+
+/* navbar */
+nav {
+    background-color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 50px;
+}
+
+ul {
+   width: 400px;
+   padding: 0; 
+   list-style-type: none;
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+}
+
+ul a {
+    text-decoration: none;
+    vertical-align: -0.5rem;
+    color: black;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100px;
+    vertical-align: -1.4rem;
+    padding: 6.5px;
+    margin-right: 60px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 6px;
+}
+
+/* Landscape Card */
+
+.card-container {
+    width: 1000px;
+    margin: 130px auto;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+}
+
+.wrapper1 {
+    width: 520px;
+    padding: 30px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.wrapper2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-socmed img {
+    width: 40px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.img-socmed {
+    margin-top: 15px;
+}
+
+.wrapper2 img {
+    width: 300px;
+    height: 305px;
+    margin: 45px 60px -3px 0px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+}
+
+.button {
+    width: 100px;
+    color: aliceblue;
+    background-color: black;
+    margin: 5px 0;
+    border-radius: 15px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.contact-download {
+    width: 270px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.contact-download a {
+    margin-left: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.contact-download img {
+    margin-left: 5px;
+    width: 20px;
+    vertical-align: -8.5px;
+    padding: 5px;
+}
+
+.img-d a {
+    vertical-align: -11px;
+    text-decoration: none;
+    color: black;
+}
+
+.img-d a:hover {
+    text-decoration: underline;
+}
+
+.img-desc {
+    margin: -5px 0;
+    text-align: center;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+}
+
+.img-desc h2 {
+    margin: 0px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+}
+
+.img-desc p {
+    text-align: center;
+    margin: 0;
+    font-size: 0.8rem;
+    padding-bottom: 8px;
+}
