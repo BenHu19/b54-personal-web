@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My project blog</title>
+    <link rel="stylesheet" href="./assets d4/style.css" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <img src="./assets d4/brandred.png" />
+            <li><a href="#">Home</a></li>
+            <li><a href="https://b54-personal-web-taupe.vercel.app/">My Project</a></li>
+        </ul>
+        <div class="btn">
+            <button type="button">Contact Me</button>
+        </div>
+    </nav>
+    <div class="blogForm-container">
+        <h2>ADD MY PROJECT</h2>
+        <form>
+            <div>
+                <label for="project-name">Project Name</label>
+                <input type="text" id="project-name">
+            </div>
+            <div class="date">
+                <div>
+                    <label for="start-date">Start date <input type="date" id="start-date"></label>
+                </div>
+                <div>
+                    <label for="end-date">End date <input type="date" id="end-date"></label>
+                </div>
+            </div>
+            <div>
+                <label for="description">Description</label>
+                <textarea id="description"></textarea>
+            </div>
+            <div>
+                <label for="technologies">Technologies</label>
+            </div>
+            <div class="techstack">
+                <div class="tech1">
+                    <label for="nodeJs">Node Js <input class="checkbox" type="checkbox" id="nodeJs"></label>
+                    <label for="reactJs">React Js <input class="checkbox" type="checkbox" id="reactJs"></label>
+                </div>
+                <div class="tech2">
+                    <label for="nextJs">Next Js <input class="checkbox" type="checkbox" id="nextJs"></label>
+                    <label for="typeScript">TypeScript <input class="checkbox" type="checkbox" id="typeScript"></label>
+                </div>
+            </div>
+            <div>
+                <label>Upload Image</label>
+                <div class="custom-file-upload">
+                    <div class="choose">
+                        <label for="image">choose</label>
+                    </div>
+                    <input type="file" id="image">
+                    <img src="./assets d4/paperclip-solid.svg" id="ppclip"/>
+                </div>
+            </div>
+            <div class="submit">
+                <button type="submit" onclick="addProject(event)">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="./assets d4/blog.js"></script>
+</html>

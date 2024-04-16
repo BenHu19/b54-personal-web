@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(215, 215, 215);
+    font-family: cursive;
+}
+
+/* navbar */
+nav {
+    background-color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 50px;
+}
+
+ul {
+   width: 400px;
+   padding: 0; 
+   list-style-type: none;
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+}
+
+ul a {
+    text-decoration: none;
+    vertical-align: -0.5rem;
+    color: black;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100px;
+    vertical-align: -1.4rem;
+    padding: 6.5px;
+    margin-right: 60px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 6px;
+}
+
+/* contact form */
+h2 {
+    margin: 140px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+}
+
+input, select {
+    height: 35px;
+}
+
+form div {
+    margin: 10px;
+}
+
+textarea {
+    resize: none;
+    height: 85px;
+}
+
+.submit {
+    text-align: end;
+}
+
+form button {
+    width: 100px;
+    vertical-align: -1.4rem;
+    padding: 6.5px;
+    margin: 0;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 15px;
+}
